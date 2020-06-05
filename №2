@@ -1,0 +1,14 @@
+#include <iostream>
+
+using namespace std;
+int main()
+{
+int a,b,c,d;
+char t1,t2,t3;
+cin >>a>>t1>>b>>t2>>c>>t3>>d;
+if ((a>=0)&&(a<=255)&&(b>=0)&&(b<=255)&&(c>=0)&&(c<=255)&&(d>=0)&&(d<=255)&&(t1='.')&&(t2='.')&&(t3='.')
+    cout <<"Yes" ;
+else
+    cout << "No";
+return 0;
+}
